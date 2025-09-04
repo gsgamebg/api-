@@ -1,0 +1,30 @@
+{
+  "name": "api-basica-javascript",
+  "version": "1.0.0",
+  "description": "Uma API básica em JavaScript usando Express.js",
+  "main": "api-basica.js",
+  "scripts": {
+    "start": "node api-basica.js",
+    "dev": "nodemon api-basica.js"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "javascript",
+    "nodejs",
+    "rest"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
